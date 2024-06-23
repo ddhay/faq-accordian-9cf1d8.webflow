@@ -1,0 +1,308 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.body {
+  color: #301534;
+  background-color: #1e1e1e;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.section {
+  max-width: 1440px;
+  height: 900px;
+}
+
+.div-block {
+  background-color: #301534;
+  background-image: url('../images/background-pattern-desktop.svg');
+  background-position: 0 0;
+  background-size: auto;
+  max-width: 1440px;
+  height: 320px;
+  font-weight: 600;
+}
+
+.div-block-2 {
+  background-color: #f8eeff;
+  max-width: 1440px;
+  height: 1038px;
+  font-weight: 600;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 600px;
+  height: 925px;
+  padding: 40px;
+  position: relative;
+  top: -137px;
+}
+
+.heading {
+  color: #301534;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-family: Work Sans, sans-serif;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.div-block-3 {
+  display: flex;
+}
+
+.image {
+  margin-top: 10px;
+}
+
+.heading-2 {
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.heading-2:hover {
+  color: #cd9fed;
+}
+
+.image-2 {
+  margin-top: 13px;
+}
+
+.flex-block {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.paragraph {
+  font-weight: 400;
+}
+
+.paragraph-2 {
+  color: #8b6990;
+  font-weight: 400;
+}
+
+.accordion-trigger---brix {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.accordion-content---brix {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+}
+
+.accordion-arrow-wrap---brix {
+  background-color: #fff;
+  border-radius: 50%;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  min-height: 50px;
+  display: flex;
+  box-shadow: 0 5px 16px rgba(8, 15, 52, .06);
+}
+
+.accordion-paragraph---brix {
+  color: #8b6990;
+  width: 100%;
+  max-width: 90%;
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.accordion-arrow-wrapper---brix {
+  z-index: 200;
+  color: #4a3aff;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  padding-bottom: 2px;
+  display: flex;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.arrow-line---brix {
+  background-color: #4a3aff;
+  border-radius: 500px;
+  width: 11px;
+  min-height: 2px;
+  position: absolute;
+}
+
+.arrow-line---brix._2---brix {
+  right: 7px;
+  transform: rotate(-45deg);
+}
+
+.arrow-line---brix._1---brix {
+  left: 7px;
+  transform: rotate(45deg);
+}
+
+.accordion-item-title---brix {
+  color: #170f49;
+  max-width: 449px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.accordion-item-title---brix:hover {
+  color: #ad28eb;
+}
+
+.accordion-item---brix {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 40px;
+  display: flex;
+}
+
+.accordion-item---brix.accordion-1---brix {
+  border: 2px solid rgba(0, 0, 0, 0);
+  margin-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
+  transition: border-color .2s, box-shadow .2s;
+  box-shadow: 0 5px 16px rgba(8, 15, 52, .06);
+}
+
+.accordion-item---brix.accordion-1---brix:hover {
+  box-shadow: 0 14px 21px rgba(74, 58, 255, .06);
+}
+
+.container-2 {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .accordion-paragraph---brix {
+    max-width: 100%;
+  }
+
+  .accordion-item-title---brix {
+    max-width: 88%;
+  }
+
+  .accordion-item---brix.accordion-1---brix {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-2 {
+    height: 1009px;
+  }
+
+  .container {
+    max-width: 500px;
+    height: 1154px;
+  }
+
+  .accordion-arrow-wrap---brix {
+    width: 40px;
+    min-height: 40px;
+  }
+
+  .accordion-paragraph---brix {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .accordion-item-title---brix {
+    max-width: 80%;
+    font-size: 18px;
+  }
+
+  .accordion-item---brix.accordion-1---brix {
+    margin-bottom: 16px;
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    height: 812px;
+    margin-top: -59px;
+  }
+
+  .div-block-2 {
+    height: 926px;
+  }
+
+  .container {
+    max-width: 327px;
+    height: 812px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .heading {
+    margin-left: 20px;
+    font-size: 32px;
+  }
+
+  .paragraph-2 {
+    font-size: 14px;
+  }
+
+  .accordion-paragraph---brix {
+    max-width: 100%;
+    font-size: 13px;
+  }
+
+  .accordion-item-title---brix {
+    max-width: 87%;
+    font-size: 17px;
+  }
+
+  .accordion-item---brix.accordion-1---brix {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
